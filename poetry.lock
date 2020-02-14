@@ -1,5 +1,13 @@
 [[package]]
 category = "dev"
+description = "Terminal session recorder"
+name = "asciinema"
+optional = false
+python-versions = "*"
+version = "2.0.2"
+
+[[package]]
+category = "dev"
 description = "Read/rewrite/write Python ASTs"
 name = "astor"
 optional = false
@@ -645,10 +653,13 @@ docs = ["sphinx", "jaraco.packaging (>=3.2)", "rst.linker (>=1.9)"]
 testing = ["jaraco.itertools"]
 
 [metadata]
-content-hash = "9d194dbd6b9a8782429b4ce77491276f371a61c5fe3d01d2650dec20e9be6add"
+content-hash = "bcd761c3751abeb4424640b343a5d77dbd3bf2b90b7f8070325e42f47334b294"
 python-versions = "^3.7"
 
 [metadata.files]
+asciinema = [
+    {file = "asciinema-2.0.2.tar.gz", hash = "sha256:32f2c1a046564e030708e596f67e0405425d1eca9d5ec83cd917ef8da06bc423"},
+]
 astor = [
     {file = "astor-0.8.1-py2.py3-none-any.whl", hash = "sha256:070a54e890cefb5b3739d19f30f5a5ec840ffc9c50ffa7d23cc9fc1a38ebbfc5"},
     {file = "astor-0.8.1.tar.gz", hash = "sha256:6a6effda93f4e1ce9f618779b2dd1d9d84f1e32812c23a29b3fff6fd7f63fa5e"},
