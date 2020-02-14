@@ -1,13 +1,13 @@
 # coding=UTF-8
 
-"""Brain Even Game module."""
+"""Brain Calc Game module."""
 
-from brain_games.games import brain_even
+from brain_games.games import brain_calc
 
 
 def main():
     """Point of entry to start program."""
-    brain_even.start()
+    brain_calc.start()
 
 
 if __name__ == '__main__':
