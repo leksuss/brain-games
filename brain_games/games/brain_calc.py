@@ -13,8 +13,8 @@ def start():
     cli.welcome_message('What is the result of the expression?\n')
     username = cli.get_username_and_hello()
     operations = {
-        # '*': lambda num1, num2: num1 * num2,
-        # '+': lambda num1, num2: num1 + num2,
+        '*': lambda num1, num2: num1 * num2,
+        '+': lambda num1, num2: num1 + num2,
         '-': lambda num1, num2: num1 - num2,
     }
     for _ in range(settings.COUNT_OF_QUESTIONS):
