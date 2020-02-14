@@ -23,8 +23,8 @@ def start():
         operation = random.choice(list(operations.keys()))
         correct_answer = operations[operation](num1, num2)
         cli.print_question_phrase('{0} {2} {1}'.format(num1, num2, operation))
-        user_answer = int(cli.get_answer())
-        if user_answer == correct_answer:
+        user_answer = cli.get_answer()
+        if user_answer.isdigit() and int(user_answer) == correct_answer:
             cli.print_correct_phrase()
         else:
             cli.print_wrong_phrase(user_answer, correct_answer, username)
