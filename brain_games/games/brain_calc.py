@@ -13,8 +13,8 @@ def start():
     cli.welcome_message('What is the result of the expression?\n')
     username = cli.get_username_and_hello()
     operations = {
-        '*': lambda num1, num2: num1 * num2,
-        '+': lambda num1, num2: num1 + num2,
+        # '*': lambda num1, num2: num1 * num2,
+        # '+': lambda num1, num2: num1 + num2,
         '-': lambda num1, num2: num1 - num2,
     }
     for _ in range(settings.COUNT_OF_QUESTIONS):
@@ -24,7 +24,7 @@ def start():
         correct_answer = operations[operation](num1, num2)
         cli.print_question_phrase('{0} {2} {1}'.format(num1, num2, operation))
         user_answer = cli.get_answer()
-        if user_answer.isdigit() and int(user_answer) == correct_answer:
+        if user_answer == str(correct_answer):
             cli.print_correct_phrase()
         else:
             cli.print_wrong_phrase(user_answer, correct_answer, username)
