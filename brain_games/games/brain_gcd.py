@@ -9,6 +9,15 @@ from brain_games.games import settings
 
 
 def get_gcd(num1, num2):
+    """Calculate GCD for 2 numbers.
+
+    Args:
+        num1: first number
+        num2: second number
+
+    Returns:
+        GCD for 2 numbers
+    """
     return get_gcd(abs(num2), num1 % num2) if num2 else num1
 
 
