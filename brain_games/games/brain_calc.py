@@ -1,6 +1,6 @@
 # coding=UTF-8
 
-"""Logics module for brain games."""
+"""Logic module for brain game CALC"""
 
 import random
 
