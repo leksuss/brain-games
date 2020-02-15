@@ -3,6 +3,9 @@
 ### Study project for learning
 
 
+### Brain GCD game. Simple install and run!
+[![asciicast](https://asciinema.org/a/hlx7NQmVJqZEReQrOa54RouzV.svg)](https://asciinema.org/a/hlx7NQmVJqZEReQrOa54RouzV)
+
 ### Brain even game. Simple install and run!
 [![asciicast](https://asciinema.org/a/CmaP0X4j7a61PAJkljBcW9nzD.svg)](https://asciinema.org/a/CmaP0X4j7a61PAJkljBcW9nzD)
 
