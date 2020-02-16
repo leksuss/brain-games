@@ -15,6 +15,8 @@
 ### Brain progression game. Simple install and run!
 [![asciicast](https://asciinema.org/a/yGDug6j9kB5nQZzFiwnZM1nx4.svg)](https://asciinema.org/a/yGDug6j9kB5nQZzFiwnZM1nx4)
 
+### Brain prime game. Simple install and run!
+[![asciicast](https://asciinema.org/a/xzRn8BzbvabtWC0xBhhLvmkuP.svg)](https://asciinema.org/a/xzRn8BzbvabtWC0xBhhLvmkuP)
 
 ### badges showing this is serious project
 [![Maintainability](https://api.codeclimate.com/v1/badges/1ef1d65aad1a35712833/maintainability)](https://codeclimate.com/github/leksuss/python-project-lvl1/maintainability)
