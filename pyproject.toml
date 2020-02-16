@@ -1,14 +1,22 @@
 [tool.poetry]
 name = "leksuss_brain_games"
 version = "0.7.0"
-description = ""
+description = "5 simple arithmetical games you can play at any time"
 authors = ["Andrey <leksus@leksus.info>"]
+repository = "https://github.com/leksuss/python-project-lvl1"
 packages = [
-  { include = "brain_games" },
+    { include = "brain_games" },
+]
+classifiers = [
+    "Topic :: Games/Entertainment :: Arcade",
+    "Environment :: Console",
+    "Intended Audience :: End Users/Desktop",
+    "License :: Freeware",
+    "Programming Language :: Python :: 3.6",
 ]
 
 [tool.poetry.dependencies]
-python = "^3.7"
+python = "^3.6"
 prompt = "^0.4.1"
 
 [tool.poetry.dev-dependencies]
