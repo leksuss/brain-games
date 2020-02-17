@@ -1,6 +1,6 @@
 # coding=UTF-8
 
-"""Logic module for brain game Progression."""
+"""Module for brain game Progression."""
 
 import math
 

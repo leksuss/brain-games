@@ -1,6 +1,6 @@
 # coding=UTF-8
 
-"""Logic module for brain game GCD."""
+"""Module for brain game GCD."""
 
 from brain_games.games import engine
 

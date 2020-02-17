@@ -1,6 +1,6 @@
 # coding=UTF-8
 
-"""SLogic engine for all games."""
+"""Logic engine for all games."""
 
 import random
 
