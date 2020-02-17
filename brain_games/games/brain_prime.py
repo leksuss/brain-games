@@ -3,10 +3,8 @@
 """Logic module for brain game Progression."""
 
 import math
-import random
 
-from brain_games import cli
-from brain_games.games import settings
+from brain_games.games import engine
 
 
 def is_prime(number):
@@ -24,20 +22,21 @@ def is_prime(number):
     return True
 
 
+def prepare_condition_for_one_game():
+    """Get condition and answer for the game.
+
+    Returns:
+        tuple of two values:
+            int with phrase user asked
+            str right answer which user should write
+    """
+    rand_num = engine.get_rand_num()
+    return rand_num, ['no', 'yes'][is_prime(rand_num)]
+
+
 def start():
-    """Logics module for brain progression game."""
-    cli.welcome_message(
-        'Answer "yes" if given number is prime. Otherwise answer "no".\n',
+    """Run common logic for calc game."""
+    engine.run_common_logic(
+        'Answer "yes" if given number is prime. Otherwise answer "no"',
+        prepare_condition_for_one_game,
     )
-    username = cli.get_username_and_hello()
-    for _ in range(settings.COUNT_OF_QUESTIONS):
-        rand_num = random.randint(settings.MIN_RAND_NUM, settings.MAX_RAND_NUM)
-        correct_answer = ['no', 'yes'][is_prime(rand_num)]
-        cli.print_question_phrase(rand_num)
-        user_answer = cli.get_answer()
-        if user_answer == str(correct_answer):
-            cli.print_correct_phrase()
-        else:
-            cli.print_wrong_phrase(user_answer, correct_answer, username)
-            return
-    cli.print_congrats_phrase(username)
