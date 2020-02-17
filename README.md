@@ -6,17 +6,16 @@
 ### Study project for learning python and building packages
 
 ### Brain calc game. Simple install and run!
-[![asciicast](https://asciinema.org/a/iqYxUet0vor8ePRPI1mQhjp0o.svg)](https://asciinema.org/a/iqYxUet0vor8ePRPI1mQhjp0o)
+[![asciicast](https://asciinema.org/a/jksgpHufTIB4BFDjYJ1HywmAm.svg)](https://asciinema.org/a/jksgpHufTIB4BFDjYJ1HywmAm)
 
 ### Brain even game. Simple install and run!
-[![asciicast](https://asciinema.org/a/CmaP0X4j7a61PAJkljBcW9nzD.svg)](https://asciinema.org/a/CmaP0X4j7a61PAJkljBcW9nzD)
+[![asciicast](https://asciinema.org/a/FnshhRAeZnoknfHOgnTMIRY1v.svg)](https://asciinema.org/a/FnshhRAeZnoknfHOgnTMIRY1v)
 
 ### Brain GCD game. Simple install and run!
-[![asciicast](https://asciinema.org/a/hlx7NQmVJqZEReQrOa54RouzV.svg)](https://asciinema.org/a/hlx7NQmVJqZEReQrOa54RouzV)
-
-
-### Brain progression game. Simple install and run!
-[![asciicast](https://asciinema.org/a/yGDug6j9kB5nQZzFiwnZM1nx4.svg)](https://asciinema.org/a/yGDug6j9kB5nQZzFiwnZM1nx4)
+[![asciicast](https://asciinema.org/a/UTgJicAUdEp6NguZAwoEKp5Hj.svg)](https://asciinema.org/a/UTgJicAUdEp6NguZAwoEKp5Hj)
 
 ### Brain prime game. Simple install and run!
-[![asciicast](https://asciinema.org/a/xzRn8BzbvabtWC0xBhhLvmkuP.svg)](https://asciinema.org/a/xzRn8BzbvabtWC0xBhhLvmkuP)
+[![asciicast](https://asciinema.org/a/mQYU9OHDuQOHQy1B4UyecXegI.svg)](https://asciinema.org/a/mQYU9OHDuQOHQy1B4UyecXegI)
+
+### Brain progression game. Simple install and run!
+[![asciicast](https://asciinema.org/a/eo0LDaArlQ8ftRKiHZVau0aeE.svg)](https://asciinema.org/a/eo0LDaArlQ8ftRKiHZVau0aeE)
