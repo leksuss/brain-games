@@ -8,15 +8,14 @@ import prompt
 def welcome_message(description=''):
     """Welcome message with game description.
 
-    Print welcome message and game rules and description.
-
     Args:
-        description: The game rules and it's description.
+        description: The game rules and/or description.
     """
     print('Welcome to the Brain Games!', description, sep='\n')
+    print()
 
 
-def get_username_and_hello():
+def welcome_player():
     """Ask user to tell his name and say hello.
 
     Returns:
@@ -39,7 +38,7 @@ def get_answer(prompt_phrase='Your answer: '):
     return prompt.string(prompt_phrase)
 
 
-def print_question_phrase(phrase):
+def ask_question(phrase):
     """Print question phrase to user.
 
     Args:
@@ -48,7 +47,7 @@ def print_question_phrase(phrase):
     print('Question: {0}'.format(phrase))
 
 
-def print_wrong_phrase(user_answer, correct_answer, username):
+def inform_wrong(user_answer, correct_answer, username):
     """Print wrong phrase to user.
 
     Args:
@@ -63,12 +62,12 @@ def print_wrong_phrase(user_answer, correct_answer, username):
     print("Let's try again, {0}!".format(username))
 
 
-def print_correct_phrase():
+def inform_right():
     """Print correct phrase to user."""
     print('Correct!')
 
 
-def print_congrats_phrase(username):
+def congratulate(username):
     """Print congratulation phrase to user.
 
     Args:
