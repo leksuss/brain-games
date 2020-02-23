@@ -12,7 +12,8 @@ Here you can find 5 beautiful games with numbers.
  - some brains
 
 ## Installation
-This project stores in test package index `test.pypi.org`, but requires `prompt` package wich is located in `pypi.org`. So we should specify both indexes while installation.
+This project stores in test package index `test.pypi.org`, but requires `prompt` package wich is located in `pypi.org`. So we should specify both indexes while installation:
+
 `pip3 install -i https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple/ leksuss-brain-games`
 
 ## Examples of installation and running
