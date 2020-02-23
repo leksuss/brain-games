@@ -14,11 +14,10 @@ RULES = 'What number is missing in the progression?'
 
 def run() -> tuple:
     """Get condition and answer for the game."""
-    progression = [random.randint(MIN_RAND_NUM, MAX_RAND_NUM)]
+    start_progr = random.randint(MIN_RAND_NUM, MAX_RAND_NUM)
     step_progr = random.randint(MIN_PROGR_STEP, MAX_PROGR_STEP)
-    for _ in range(PROGR_LENGTH):
-        progression.append(progression[-1] + step_progr)
-    rand_index = random.randint(0, PROGR_LENGTH)
+    progression = [start_progr + step_progr * elem for elem in range(10)]
+    rand_index = random.randint(0, PROGR_LENGTH - 1)
     correct_answer = progression[rand_index]
     progression[rand_index] = '…'
     return ' '.join(str(elem) for elem in progression), str(correct_answer)
