@@ -2,7 +2,6 @@
 
 """Module for brain game Progression."""
 
-import math
 import random
 
 MIN_RAND_NUM = 1
@@ -12,7 +11,7 @@ RULES = 'Answer "yes" if given number is prime. Otherwise answer "no"'
 
 def is_prime(number: int) -> bool:
     """Check if given number is prime."""
-    for divider in range(2, math.ceil(number**0.5)):
+    for divider in range(2, int(number**0.5) + 1):
         if not number % divider:
             return False
     return True

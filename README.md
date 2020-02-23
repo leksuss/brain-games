@@ -20,16 +20,16 @@ pip3 install -i https://test.pypi.org/simple/ --extra-index-url https://pypi.org
 ## Examples of installation and running
 
 ### Brain calc game
-[![asciicast](https://asciinema.org/a/jksgpHufTIB4BFDjYJ1HywmAm.svg)](https://asciinema.org/a/jksgpHufTIB4BFDjYJ1HywmAm)
+[![asciicast](https://asciinema.org/a/TCzr8kopDwp0ez6FGF0EXC8qp.svg)](https://asciinema.org/a/TCzr8kopDwp0ez6FGF0EXC8qp)
 
 ### Brain even game
-[![asciicast](https://asciinema.org/a/FnshhRAeZnoknfHOgnTMIRY1v.svg)](https://asciinema.org/a/FnshhRAeZnoknfHOgnTMIRY1v)
+[![asciicast](https://asciinema.org/a/arawL8J89c3ydL17DON0RmceE.svg)](https://asciinema.org/a/arawL8J89c3ydL17DON0RmceE)
 
 ### Brain GCD game
-[![asciicast](https://asciinema.org/a/UTgJicAUdEp6NguZAwoEKp5Hj.svg)](https://asciinema.org/a/UTgJicAUdEp6NguZAwoEKp5Hj)
+[![asciicast](https://asciinema.org/a/n0yZaPcJsPBeS8PtKNCqFyyaw.svg)](https://asciinema.org/a/n0yZaPcJsPBeS8PtKNCqFyyaw)
 
 ### Brain prime game
-[![asciicast](https://asciinema.org/a/mQYU9OHDuQOHQy1B4UyecXegI.svg)](https://asciinema.org/a/mQYU9OHDuQOHQy1B4UyecXegI)
+[![asciicast](https://asciinema.org/a/fQa7T18eHpaOD660G0GLssCIO.svg)](https://asciinema.org/a/fQa7T18eHpaOD660G0GLssCIO)
 
 ### Brain progression game
-[![asciicast](https://asciinema.org/a/eo0LDaArlQ8ftRKiHZVau0aeE.svg)](https://asciinema.org/a/eo0LDaArlQ8ftRKiHZVau0aeE)
+[![asciicast](https://asciinema.org/a/vgzI81y7ynFyuOdiRObQdVnaR.svg)](https://asciinema.org/a/vgzI81y7ynFyuOdiRObQdVnaR)
