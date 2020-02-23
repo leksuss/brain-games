@@ -2,24 +2,14 @@
 
 """Module for brain game EVEN."""
 
-from brain_games.games import engine
+import random
+
+MIN_RAND_NUM = 1
+MAX_RAND_NUM = 50
+RULES = 'Answer "yes" if number even otherwise answer "no".'
 
 
-def prepare_condition_for_one_game():
-    """Get condition and answer for the game.
-
-    Returns:
-        tuple of two values:
-            str with phrase user asked
-            str right answer which user should write
-    """
-    rand_num = engine.get_rand_num()
-    return rand_num, ['yes', 'no'][rand_num % 2]
-
-
-def start():
-    """Run common logic for calc game."""
-    engine.run_common_logic(
-        'Answer "yes" if number even otherwise answer "no".',
-        prepare_condition_for_one_game,
-    )
+def run() -> tuple:
+    """Return condition and right answer of the game."""
+    rand_num = random.randint(MIN_RAND_NUM, MAX_RAND_NUM)
+    return str(rand_num), 'no' if rand_num % 2 else 'yes'

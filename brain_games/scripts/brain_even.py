@@ -2,12 +2,13 @@
 
 """Brain Even Game module."""
 
+from brain_games import engine
 from brain_games.games import brain_even
 
 
 def main():
-    """Point of entry to start program."""
-    brain_even.start()
+    """Run game engine for brain_even game."""
+    engine.run(brain_even)
 
 
 if __name__ == '__main__':

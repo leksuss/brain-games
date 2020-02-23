@@ -2,34 +2,23 @@
 
 """Module for brain game CALC."""
 
+import operator
 import random
 
-from brain_games.games import engine
+MIN_RAND_NUM = 1
+MAX_RAND_NUM = 50
+RULES = 'What is the result of the expression?'
+OPERATIONS = (
+    ('*', operator.mul),
+    ('+', operator.add),
+    ('-', operator.sub),
+)
 
 
-def prepare_condition_for_one_game():
-    """Get condition and answer for the game.
-
-    Returns:
-        tuple of two values:
-            str with phrase user asked
-            str right answer which user should write
-    """
-    operations = {
-        '*': lambda num1, num2: num1 * num2,
-        '+': lambda num1, num2: num1 + num2,
-        '-': lambda num1, num2: num1 - num2,
-    }
-    rand_operation = random.choice(list(operations.keys()))
-    num1, num2 = engine.get_rand_num(), engine.get_rand_num()
-    correct_answer = operations[rand_operation](num1, num2)
-    question_phrase = '{0} {2} {1}'.format(num1, num2, rand_operation)
-    return question_phrase, correct_answer
-
-
-def start():
-    """Run common logic for calc game."""
-    engine.run_common_logic(
-        'What is the result of the expression?',
-        prepare_condition_for_one_game,
-    )
+def run() -> tuple:
+    """Return condition and right answer of the game."""
+    rand_operation = random.choice(OPERATIONS)
+    num1 = random.randint(MIN_RAND_NUM, MAX_RAND_NUM)
+    num2 = random.randint(MIN_RAND_NUM, MAX_RAND_NUM)
+    question_phrase = '{0} {2} {1}'.format(num1, num2, rand_operation[0])
+    return question_phrase, str(rand_operation[1](num1, num2))
